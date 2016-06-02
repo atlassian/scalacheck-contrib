@@ -28,29 +28,29 @@ Getting Started
 With Maven:
 
         <repository>
-            <id>phunkphorce.github.com</id>
+            <id>atlassian-3rdparty</id>
             <name>Maven2 repository</name>
-            <url>http://phunkphorce.github.com/maven</url>
+            <url>https://maven.atlassian.com/3rdparty</url>
         </repository>
         ...
         <dependency>
             <groupId>net.renalias.scalacheck</groupId>
-            <artifactId>scalacheck-contrib_2.9.0-1</artifactId>
-            <version>20110916</version>
+            <artifactId>scalacheck-contrib_2.11</artifactId>
+            <version>20110916-atlassian-1</version>
         </dependency>
 
 With SBT (0.7.x):
 
 ```scala
-    val repo = "phunkporce.github.com" at "http://phunkphorce.github.com/maven"
-	val scalacheckContrib = "net.renalias.scalacheck" %% "scalacheck-contrib" % "20110916"
+    val repo = "maven.atlassian.com" at "https://maven.atlassian.com/3rdparty"
+	val scalacheckContrib = "net.renalias.scalacheck" %% "scalacheck-contrib" % "20110916-atlassian-1"
 ```
 
-Please note that the library is currently only compield for Scala 2.9.0-1.
+Please note that the library is currently only compiled for Scala 2.11.
 
 With the plain JAR file:
 
-Get the JAR file from here: https://github.com/phunkphorce/scalacheck-contrib/raw/master/target/scalacheck-contrib_2.9.0-1-20110916.jar
+Get the JAR file from here: https://maven.atlassian.com/3rdparty-snapshot/net/renalias/scalacheck/scalacheck-contrib_2.11/20110916-atlassian-1-SNAPSHOT/scalacheck-contrib_2.11-20110916-atlassian-1-20160602.014329-1.jar
 
 License
 -------
