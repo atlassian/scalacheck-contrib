@@ -36,21 +36,21 @@ With Maven:
         <dependency>
             <groupId>net.renalias.scalacheck</groupId>
             <artifactId>scalacheck-contrib_2.11</artifactId>
-            <version>20110916-atlassian-1</version>
+            <version>20110916-atlassian-2</version>
         </dependency>
 
 With SBT (0.7.x):
 
 ```scala
     val repo = "maven.atlassian.com" at "https://maven.atlassian.com/3rdparty"
-	val scalacheckContrib = "net.renalias.scalacheck" %% "scalacheck-contrib" % "20110916-atlassian-1"
+	val scalacheckContrib = "net.renalias.scalacheck" %% "scalacheck-contrib" % "20110916-atlassian-2"
 ```
 
 Please note that the library is currently only compiled for Scala 2.11.
 
 With the plain JAR file:
 
-Get the JAR file from here: https://maven.atlassian.com/3rdparty-snapshot/net/renalias/scalacheck/scalacheck-contrib_2.11/20110916-atlassian-1-SNAPSHOT/scalacheck-contrib_2.11-20110916-atlassian-1-20160602.014329-1.jar
+Get the JAR file from here: https://maven.atlassian.com/3rdparty-snapshot/net/renalias/scalacheck/scalacheck-contrib_2.11/20110916-atlassian-2/scalacheck-contrib_2.11-20110916-atlassian-1-20160602.014329-1.jar
 
 License
 -------
