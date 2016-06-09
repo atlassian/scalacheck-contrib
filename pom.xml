@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.renalias.scalacheck</groupId>
     <artifactId>scalacheck-contrib_${scala.major.version}</artifactId>
-    <version>20110916-atlassian-2-SNAPSHOT</version>
+    <version>20110916-atlassian-2</version>
     <properties>
         <scala.major.version>2.11</scala.major.version>
         <scala.version>${scala.major.version}.8</scala.version>
@@ -49,7 +49,7 @@
     <scm>
         <connection>scm:git:git@github.com:atlassian/scalacheck-contrib.git</connection>
         <url>https://github.com/atlassian/scalacheck-contrib</url>
-        <tag>HEAD</tag>
+        <tag>scalacheck-contrib_2.11-20110916-atlassian-2</tag>
     </scm>
 
     <dependencies>
